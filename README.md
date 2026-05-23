@@ -408,10 +408,5 @@ Test transcripts demonstrate:
 B.Tech Computer Science  
 Manipal University Jaipur (2027)
 
-GitHub: <your-link>
-
-LinkedIn: <your-link>
-
 Email:
 tanushreenerella697@gmail.com
-https://www.loom.com/share/96ff1173196f4353a0d8c2759993dcb0
