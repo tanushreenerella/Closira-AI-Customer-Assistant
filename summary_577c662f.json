@@ -1,0 +1,5 @@
+{
+  "session_id": "577c662f-30f6-48bb-b839-1071e1af762f",
+  "timestamp": "2026-05-23T14:07:22.994349Z",
+  "raw_summary": "Here is the summary: \n{\n  \"customer_intent\": \"The customer wants to book a Botox treatment appointment as a first-time client.\",\n  \"key_details_collected\": {\n    \"treatment_interest\": \"botox\",\n    \"experience_level\": \"first-time\",\n    \"booking_readiness\": \"ready to book\"\n  },\n  \"sop_gaps\": [],\n  \"recommended_next_action\": \"Schedule a Botox treatment appointment for the customer.\",\n  \"escalated\": false,\n  \"escalation_reason\": null\n}"
+}

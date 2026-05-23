@@ -1,0 +1,14 @@
+{
+  "session_id": "3a9e30ac-7d28-458d-9103-8255cb9717a5",
+  "timestamp": "2026-05-23T11:47:37.261100Z",
+  "customer_intent": "The customer wants to book a Botox appointment.",
+  "key_details_collected": {
+    "treatment_interest": "botox",
+    "experience_level": "first time",
+    "booking_readiness": "ready to book"
+  },
+  "sop_gaps": [],
+  "recommended_next_action": "The team should contact the customer to finalize the appointment details.",
+  "escalated": false,
+  "escalation_reason": null
+}

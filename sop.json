@@ -1,0 +1,62 @@
+{
+  "business": {
+    "name": "Bloom Aesthetics Clinic",
+    "tagline": "Natural beauty, expertly enhanced.",
+    "hours": "Monday to Saturday, 9:00 AM to 7:00 PM",
+    "closed_on": "Sundays and public holidays"
+  },
+  "contact": {
+    "booking_channels": ["WhatsApp", "website"],
+    "cancellation_policy": "24-hour notice required for cancellations or rescheduling"
+  },
+  "services": [
+    {
+      "name": "Botox",
+      "starting_price": "£200",
+      "description": "Anti-wrinkle injections to smooth fine lines and wrinkles. Results typically last 3-6 months.",
+      "areas_treated": ["forehead", "frown lines", "crow's feet", "bunny lines"]
+    },
+    {
+      "name": "Dermal Fillers",
+      "starting_price": "£250",
+      "description": "Injectable fillers to restore volume, enhance contours, and reduce deep lines. Results typically last 6-18 months depending on area.",
+      "areas_treated": ["lips", "cheeks", "nasolabial folds", "jawline", "chin"]
+    },
+    {
+      "name": "Consultation",
+      "starting_price": "Free",
+      "description": "A complimentary 30-minute consultation with our practitioner to discuss your goals, assess suitability, and create a personalised treatment plan."
+    }
+  ],
+  "escalation_triggers": [
+    "complaint or dissatisfaction",
+    "medical or health-related questions",
+    "pricing negotiation or discount requests",
+    "more than 2 consecutive unanswered questions",
+    "explicit request to speak to a human",
+    "angry or aggressive tone",
+    "questions about complications or side effects requiring medical advice"
+  ],
+  "faqs": [
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book via WhatsApp or through our website. We recommend booking your free consultation first."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "We require at least 24 hours notice for any cancellations or rescheduling."
+    },
+    {
+      "question": "Are consultations free?",
+      "answer": "Yes, all initial consultations are completely free of charge."
+    },
+    {
+      "question": "How long do Botox results last?",
+      "answer": "Botox results typically last between 3 to 6 months."
+    },
+    {
+      "question": "How long do filler results last?",
+      "answer": "Dermal filler results typically last between 6 to 18 months depending on the treatment area."
+    }
+  ]
+}

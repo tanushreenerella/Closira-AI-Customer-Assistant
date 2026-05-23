@@ -1,0 +1,603 @@
+[
+  {
+    "session_id": "880b811e-0489-4402-9754-455d8186125b",
+    "timestamp": "2026-05-23T03:53:27.530002Z",
+    "reason": "Angry sentiment detected: 'terrible'",
+    "conversation_snapshot": [
+      {
+        "role": "assistant",
+        "content": "Our Botox treatments start at \u00a3200. I can also offer you a free consultation to discuss your goals and create a personalized treatment plan. Would you like to book a consultation or learn more about our Botox services?\n{\n  \"response\": \"Our Botox treatments start at \u00a3200. I can also offer you a free consultation to discuss your goals and create a personalized treatment plan. Would you like to book a consultation or learn more about our Botox services?\",\n  \"confidence\": 1.0,\n  \"escalate\": false,\n  \"escalation_reason\": null,\n  \"stage_complete\": false,\n  \"sop_gap\": false\n}"
+      },
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. Our current services include Botox, dermal fillers, and free consultations. If you're interested in learning more about these services or would like to book a consultation, I'd be happy to help. Otherwise, I can offer to escalate your inquiry to see if we can provide more information on laser hair removal.\n{\n  \"response\": \"I don't have that information right now. Our current services include Botox, dermal fillers, and free consultations. If you're interested in learning more about these services or would like to book a consultation, I'd be happy to help. Otherwise, I can offer to escalate your inquiry to see if we can provide more information on laser hair removal.\",\n  \"confidence\": 1.0,\n  \"escalate\": true,\n  \"escalation_reason\": \"request for service not listed in SOP\",\n  \"stage_complete\": false,\n  \"sop_gap\": true\n}"
+      },
+      {
+        "role": "user",
+        "content": "What about cryotherapy?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We currently offer Botox, dermal fillers, and free consultations at Bloom Aesthetics Clinic. If you're interested in learning more about these services or would like to book a consultation, I'd be happy to help. Otherwise, I can offer to escalate your inquiry to see if we can provide more information on cryotherapy.\n{\n  \"response\": \"I don't have that information right now. We currently offer Botox, dermal fillers, and free consultations at Bloom Aesthetics Clinic. If you're interested in learning more about these services or would like to book a consultation, I'd be happy to help. Otherwise, I can offer to escalate your inquiry to see if we can provide more information on cryotherapy.\",\n  \"confidence\": 1.0,\n  \"escalate\": true,\n  \"escalation_reason\": \"request for service not listed in SOP\",\n  \"stage_complete\": false,\n  \"sop_gap\": true\n}"
+      },
+      {
+        "role": "user",
+        "content": "This is terrible and unacceptable"
+      }
+    ]
+  },
+  {
+    "session_id": "880b811e-0489-4402-9754-455d8186125b",
+    "timestamp": "2026-05-23T03:53:50.393887Z",
+    "reason": "Customer requested human agent",
+    "conversation_snapshot": [
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. Our current services include Botox, dermal fillers, and free consultations. If you're interested in learning more about these services or would like to book a consultation, I'd be happy to help. Otherwise, I can offer to escalate your inquiry to see if we can provide more information on laser hair removal.\n{\n  \"response\": \"I don't have that information right now. Our current services include Botox, dermal fillers, and free consultations. If you're interested in learning more about these services or would like to book a consultation, I'd be happy to help. Otherwise, I can offer to escalate your inquiry to see if we can provide more information on laser hair removal.\",\n  \"confidence\": 1.0,\n  \"escalate\": true,\n  \"escalation_reason\": \"request for service not listed in SOP\",\n  \"stage_complete\": false,\n  \"sop_gap\": true\n}"
+      },
+      {
+        "role": "user",
+        "content": "What about cryotherapy?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We currently offer Botox, dermal fillers, and free consultations at Bloom Aesthetics Clinic. If you're interested in learning more about these services or would like to book a consultation, I'd be happy to help. Otherwise, I can offer to escalate your inquiry to see if we can provide more information on cryotherapy.\n{\n  \"response\": \"I don't have that information right now. We currently offer Botox, dermal fillers, and free consultations at Bloom Aesthetics Clinic. If you're interested in learning more about these services or would like to book a consultation, I'd be happy to help. Otherwise, I can offer to escalate your inquiry to see if we can provide more information on cryotherapy.\",\n  \"confidence\": 1.0,\n  \"escalate\": true,\n  \"escalation_reason\": \"request for service not listed in SOP\",\n  \"stage_complete\": false,\n  \"sop_gap\": true\n}"
+      },
+      {
+        "role": "user",
+        "content": "This is terrible and unacceptable"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm really sorry to hear that. I'm flagging this conversation for our team right away \u2014 a Bloom Aesthetics specialist will be in touch with you shortly. \ud83d\udc90"
+      },
+      {
+        "role": "user",
+        "content": "I want to speak to a manager"
+      }
+    ]
+  },
+  {
+    "session_id": "7219ce26-e792-4189-9daa-e86b3c12047b",
+    "timestamp": "2026-05-23T03:59:02.808133Z",
+    "reason": "outside of SOP",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "hi"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, welcome to Bloom Aesthetics Clinic! We're here to help. How can I assist you today?"
+      },
+      {
+        "role": "user",
+        "content": "What are your Botox prices?"
+      },
+      {
+        "role": "assistant",
+        "content": "Our Botox treatments start at \u00a3200. Please note that prices may vary depending on the area treated and the number of sessions required. I recommend booking a free consultation with our practitioner to discuss your goals and create a personalized treatment plan."
+      },
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      }
+    ]
+  },
+  {
+    "session_id": "7219ce26-e792-4189-9daa-e86b3c12047b",
+    "timestamp": "2026-05-23T03:59:25.468337Z",
+    "reason": "More than 2 consecutive unanswered questions",
+    "conversation_snapshot": [
+      {
+        "role": "assistant",
+        "content": "Hello, welcome to Bloom Aesthetics Clinic! We're here to help. How can I assist you today?"
+      },
+      {
+        "role": "user",
+        "content": "What are your Botox prices?"
+      },
+      {
+        "role": "assistant",
+        "content": "Our Botox treatments start at \u00a3200. Please note that prices may vary depending on the area treated and the number of sessions required. I recommend booking a free consultation with our practitioner to discuss your goals and create a personalized treatment plan."
+      },
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We specialize in Botox, dermal fillers, and free consultations. If you're interested in learning more about our services, I'd be happy to help."
+      },
+      {
+        "role": "user",
+        "content": "What about cryotherapy?"
+      }
+    ]
+  },
+  {
+    "session_id": "7219ce26-e792-4189-9daa-e86b3c12047b",
+    "timestamp": "2026-05-23T03:59:40.254684Z",
+    "reason": "Angry sentiment detected: 'terrible'",
+    "conversation_snapshot": [
+      {
+        "role": "assistant",
+        "content": "Our Botox treatments start at \u00a3200. Please note that prices may vary depending on the area treated and the number of sessions required. I recommend booking a free consultation with our practitioner to discuss your goals and create a personalized treatment plan."
+      },
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We specialize in Botox, dermal fillers, and free consultations. If you're interested in learning more about our services, I'd be happy to help."
+      },
+      {
+        "role": "user",
+        "content": "What about cryotherapy?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We specialize in Botox, dermal fillers, and free consultations. If you're interested in learning more about our services, I'd be happy to help."
+      },
+      {
+        "role": "user",
+        "content": "This is terrible and unacceptable"
+      }
+    ]
+  },
+  {
+    "session_id": "7219ce26-e792-4189-9daa-e86b3c12047b",
+    "timestamp": "2026-05-23T03:59:53.486871Z",
+    "reason": "Customer requested human agent",
+    "conversation_snapshot": [
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We specialize in Botox, dermal fillers, and free consultations. If you're interested in learning more about our services, I'd be happy to help."
+      },
+      {
+        "role": "user",
+        "content": "What about cryotherapy?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We specialize in Botox, dermal fillers, and free consultations. If you're interested in learning more about our services, I'd be happy to help."
+      },
+      {
+        "role": "user",
+        "content": "This is terrible and unacceptable"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm really sorry to hear that. I'm flagging this conversation for our team right away \u2014 a Bloom Aesthetics specialist will be in touch with you shortly. \ud83d\udc90"
+      },
+      {
+        "role": "user",
+        "content": "I want to speak to a manager"
+      }
+    ]
+  },
+  {
+    "session_id": "49075799-835d-44c4-9ed5-ccbefd0ad7cd",
+    "timestamp": "2026-05-23T11:13:40.314127Z",
+    "reason": "outside of SOP",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "hi"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, welcome to Bloom Aesthetics Clinic. How can I assist you today?"
+      },
+      {
+        "role": "user",
+        "content": "What are your Botox prices?"
+      },
+      {
+        "role": "assistant",
+        "content": "Our Botox starting price is \u00a3200. Please note that prices may vary depending on the area treated and the number of sessions required. I recommend booking a free consultation with our practitioner to discuss your specific needs and get a personalized quote."
+      },
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      }
+    ]
+  },
+  {
+    "session_id": "49075799-835d-44c4-9ed5-ccbefd0ad7cd",
+    "timestamp": "2026-05-23T11:14:21.369791Z",
+    "reason": "Angry sentiment detected: 'furious'",
+    "conversation_snapshot": [
+      {
+        "role": "assistant",
+        "content": "Our Botox starting price is \u00a3200. Please note that prices may vary depending on the area treated and the number of sessions required. I recommend booking a free consultation with our practitioner to discuss your specific needs and get a personalized quote."
+      },
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We currently offer Botox, dermal fillers, and free consultations. If you'd like to know more about our services or book an appointment, I'd be happy to help."
+      },
+      {
+        "role": "user",
+        "content": "What about cryotherapy?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We currently offer Botox, dermal fillers, and free consultations. If you'd like to know more about our services or book an appointment, I'd be happy to help."
+      },
+      {
+        "role": "user",
+        "content": "I am furious, this is unacceptable"
+      }
+    ]
+  },
+  {
+    "session_id": "49075799-835d-44c4-9ed5-ccbefd0ad7cd",
+    "timestamp": "2026-05-23T11:14:33.653374Z",
+    "reason": "Customer requested human agent",
+    "conversation_snapshot": [
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We currently offer Botox, dermal fillers, and free consultations. If you'd like to know more about our services or book an appointment, I'd be happy to help."
+      },
+      {
+        "role": "user",
+        "content": "What about cryotherapy?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We currently offer Botox, dermal fillers, and free consultations. If you'd like to know more about our services or book an appointment, I'd be happy to help."
+      },
+      {
+        "role": "user",
+        "content": "I am furious, this is unacceptable"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm really sorry to hear that. I'm flagging this conversation for our team right away \u2014 a Bloom Aesthetics specialist will be in touch with you shortly. \ud83d\udc90"
+      },
+      {
+        "role": "user",
+        "content": "Can I speak to a human?"
+      }
+    ]
+  },
+  {
+    "session_id": "49075799-835d-44c4-9ed5-ccbefd0ad7cd",
+    "timestamp": "2026-05-23T11:14:44.789110Z",
+    "reason": "medical or health-related question",
+    "conversation_snapshot": [
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We currently offer Botox, dermal fillers, and free consultations. If you'd like to know more about our services or book an appointment, I'd be happy to help."
+      },
+      {
+        "role": "user",
+        "content": "I am furious, this is unacceptable"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm really sorry to hear that. I'm flagging this conversation for our team right away \u2014 a Bloom Aesthetics specialist will be in touch with you shortly. \ud83d\udc90"
+      },
+      {
+        "role": "user",
+        "content": "Can I speak to a human?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm really sorry to hear that. I'm flagging this conversation for our team right away \u2014 a Bloom Aesthetics specialist will be in touch with you shortly. \ud83d\udc90"
+      },
+      {
+        "role": "user",
+        "content": "Is Botox safe if I am pregnant?"
+      }
+    ]
+  },
+  {
+    "session_id": "152ec628-d6ff-4da2-885e-7fd3dadb2f76",
+    "timestamp": "2026-05-23T11:20:18.799098Z",
+    "reason": "question is outside the SOP",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      }
+    ]
+  },
+  {
+    "session_id": "963660ed-4ed3-4ca7-ae9f-e26797f7cb72",
+    "timestamp": "2026-05-23T11:20:39.299174Z",
+    "reason": "I don't have information on laser hair removal",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      }
+    ]
+  },
+  {
+    "session_id": "922890d0-c53e-4b37-a74d-1ebf730e0410",
+    "timestamp": "2026-05-23T11:20:57.563207Z",
+    "reason": "Information not available in SOP",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now"
+      },
+      {
+        "role": "user",
+        "content": "What about cryotherapy?"
+      }
+    ]
+  },
+  {
+    "session_id": "b540a36b-e501-4435-b0f9-cce5e928f006",
+    "timestamp": "2026-05-23T11:21:06.723237Z",
+    "reason": "medical or health-related questions",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Is Botox safe if I am pregnant?"
+      }
+    ]
+  },
+  {
+    "session_id": "28eddd99-172b-479a-a37c-75c1fd225d93",
+    "timestamp": "2026-05-23T11:23:42.895411Z",
+    "reason": "More than 2 consecutive unanswered questions",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now. We specialize in Botox, dermal fillers, and free consultations here at Bloom Aesthetics Clinic. Would you like me to help with something else?"
+      },
+      {
+        "role": "user",
+        "content": "What about cryotherapy?"
+      }
+    ]
+  },
+  {
+    "session_id": "911bc01d-48ad-424b-a110-2ada0880f50a",
+    "timestamp": "2026-05-23T11:27:00.054640Z",
+    "reason": "Service not found in SOP data",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information right now"
+      },
+      {
+        "role": "user",
+        "content": "What about cryotherapy?"
+      }
+    ]
+  },
+  {
+    "session_id": "3bab510f-2217-4b8b-9018-72269a100a80",
+    "timestamp": "2026-05-23T11:28:22.963318Z",
+    "reason": "Question outside SOP data",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      }
+    ]
+  },
+  {
+    "session_id": "cca10fa4-96e7-42b3-8ca6-b1bfe31e7675",
+    "timestamp": "2026-05-23T11:37:42.919336Z",
+    "reason": "Outside of SOP services",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Do you offer laser hair removal?"
+      }
+    ]
+  },
+  {
+    "session_id": "74b13714-5fb3-46fc-9771-fb0c13552cac",
+    "timestamp": "2026-05-23T11:38:15.545128Z",
+    "reason": "Angry sentiment detected: 'furious'",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "I am furious, this is unacceptable"
+      }
+    ]
+  },
+  {
+    "session_id": "1a675b1d-5a5d-4fc9-8740-faed2b5677bd",
+    "timestamp": "2026-05-23T11:38:37.535591Z",
+    "reason": "Customer requested human agent",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Can I speak to a human?"
+      }
+    ]
+  },
+  {
+    "session_id": "6957bed3-caeb-4ab4-b81f-76e3787aecce",
+    "timestamp": "2026-05-23T11:38:53.819118Z",
+    "reason": "medical or health-related questions",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Is Botox safe if I am pregnant?"
+      }
+    ]
+  },
+  {
+    "session_id": "bf63790f-b4c1-407e-bed3-f59aa8ef4afe",
+    "timestamp": "2026-05-23T11:48:10.510299Z",
+    "reason": "The requested service is not in our SOP data",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "laser hair treatement"
+      }
+    ]
+  },
+  {
+    "session_id": "86db1c34-b080-4010-a7e8-9f1dd425627c",
+    "timestamp": "2026-05-23T11:48:40.875618Z",
+    "reason": "Angry sentiment detected: 'furious'",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "I am furious, this is unacceptable"
+      }
+    ]
+  },
+  {
+    "session_id": "9aa81b14-5725-4951-810b-f4e4c64c2ec8",
+    "timestamp": "2026-05-23T12:07:36.030858Z",
+    "reason": "Service not listed in SOP",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "is hair removal avaiable?"
+      }
+    ]
+  },
+  {
+    "session_id": "a8fa00d6-5b43-4d58-9412-45454518974c",
+    "timestamp": "2026-05-23T12:08:22.637922Z",
+    "reason": "Angry sentiment detected: 'angry'",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "I m angry this is unacceptable"
+      }
+    ]
+  },
+  {
+    "session_id": "2ee82dbb-18fa-4de2-85bc-ee908aefebf7",
+    "timestamp": "2026-05-23T12:08:41.764151Z",
+    "reason": "medical or health-related question",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "Is Botox safe during pregnancy?"
+      }
+    ]
+  },
+  {
+    "session_id": "9196d2e4-e55e-4d8a-9708-441c87ca94a4",
+    "timestamp": "2026-05-23T13:54:51.451543Z",
+    "reason": "request for service not listed in SOP",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "i need laser treatement"
+      }
+    ]
+  },
+  {
+    "session_id": "7bdf35f3-1efb-41ba-92e7-ce1641837052",
+    "timestamp": "2026-05-23T13:55:30.953327Z",
+    "reason": "Angry sentiment detected: 'angry'",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "i m really angry you are not provinding assistance"
+      }
+    ]
+  },
+  {
+    "session_id": "6eed9562-817f-4013-9d87-4682259b2921",
+    "timestamp": "2026-05-23T13:56:05.041518Z",
+    "reason": "medical or health-related question",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "can botox be done during pregnancy"
+      }
+    ]
+  },
+  {
+    "session_id": "f79fb1a6-bc9a-45ef-9678-52dd3cecfc4d",
+    "timestamp": "2026-05-23T14:08:23.602875Z",
+    "reason": "medical or health-related questions",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "i need a laser treatement"
+      }
+    ]
+  },
+  {
+    "session_id": "2dfb3dfc-3a71-4bb6-b234-be945da2e110",
+    "timestamp": "2026-05-23T14:16:13.251598Z",
+    "reason": "request for non-offered service",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "i need a laser treatement"
+      }
+    ]
+  },
+  {
+    "session_id": "386524e7-5477-4a5c-9b46-653a21cd13d6",
+    "timestamp": "2026-05-23T14:16:49.782431Z",
+    "reason": "Angry sentiment detected: 'angry'",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "i am angry i need appointment booked u r of no help"
+      }
+    ]
+  },
+  {
+    "session_id": "6bcd62fe-b798-48b4-8766-cd06205a06dc",
+    "timestamp": "2026-05-23T14:23:02.310653Z",
+    "reason": "service not listed in SOP",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "i need a laser treatement"
+      }
+    ]
+  },
+  {
+    "session_id": "4159920e-26bc-4715-9458-b88c8789d578",
+    "timestamp": "2026-05-23T14:23:24.170656Z",
+    "reason": "Angry sentiment detected: 'angry'",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "i am angry i need it urgently"
+      }
+    ]
+  },
+  {
+    "session_id": "a5c0edc0-bd63-45fe-bc10-fbfbcab8618a",
+    "timestamp": "2026-05-23T14:23:46.137529Z",
+    "reason": "medical or health-related question",
+    "conversation_snapshot": [
+      {
+        "role": "user",
+        "content": "i m pregnant can i take botox treatement"
+      }
+    ]
+  }
+]
